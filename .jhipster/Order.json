@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "fieldName": "clientid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productid",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "product",
+      "otherEntityName": "product",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "service": "no",
+  "readOnly": false,
+  "pagination": "no",
+  "entityTableName": "jhi_order",
+  "name": "Order",
+  "changelogDate": "20210909063650"
+}

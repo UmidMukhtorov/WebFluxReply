@@ -42,6 +42,8 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "withAdminUi": true,
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1631169410000,
+    "entities": ["Client", "Product", "Order"]
   }
 }
